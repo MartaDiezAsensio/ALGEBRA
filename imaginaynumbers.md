@@ -2,6 +2,15 @@
 
 ### Binomial form of complex numbers
 
+To express a complex number in the binomial form we need to divide the imaginary exponent by two and do the following: 
+
+**Given the number $j^{255}$**
+
+1. d
+
+
+
+
 ### Calculate complex roots
 
 Lets put the case you need to calculate the sixth roots of **-8**.
