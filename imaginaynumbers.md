@@ -15,6 +15,13 @@ When operating with complex numbers we will proceed as we do with regular polyno
 
   - $(a+jb)*(c+jd) = ac + jad + jbc + j^2bd = ac + jad + jbc -bd = ac - bd + j(ad + bc)$
 
+
+#### Operations with the conjugate 
+
+The conjugate of a complex number is notated  $\overline{x + yj}$ and it's a number with an equal real part and an imaginary part equal in magnitude but opposite in sign. That is (if $a$ and $b$ are real), the conjugate of $(a + bj)$  is  $(a - bj)$. 
+
+In polar form, the conjugate of $re^{j\alpha}$ is $re^{-j\alpha}$.
+
 ### Binomial form of complex numbers
 
 To express a complex number in the binomial form we need to divide the imaginary exponent by two and do the following: 
@@ -63,6 +70,33 @@ A proof of this formula is:
    - $\frac{e^{-3+5j}-e^{-3-5j}}{e^{-3-5j}+e^{-3+5j}} = \frac{e^{-3}(2jsin5)}{e^3(2cos5)} = e^{-6}jtg5$
 
 
+### Other forms of imaginary numbers (polar and exponential)
+
+
+#### Polar
+
+- The polar form of an imaginary number is denotated by the vectorial expreision of the number in the complex plane and is denotated by the modulus $(r)$ and the argument (\alpha) of the number. 
+    - $z = r (cos \alpha + jsin \alpha)$
+    - $z = r_{\alpha}$
+
+To calculate the modulus we square the real and imaginary part of the number and make the squareroot of it: 
+  - $(a + jb) \rightarrow \sqrt{a^2+b^2}$
+
+To calculate the argument we work out the tangent of the division of the imaginary part of the number by the real part of it:
+  - $\alpha = arctan(\frac{b}{a})$
+  - $tan \alpha = \frac{b}{a}$  Based in the trigonometric properties of the polar expressed comlex number in the plane. 
+
+
+#### Exponential
+
+The exponential form of a complex number has the form of $(z = re^{j\alpha})$. 
+
+To get to this expression we may go back to the polar form. Hence we have said that we can express a complex number like $z = r(cos\alpha + jsin\alpha)$. 
+
+We then need to recall Euler's formula $(e^{j\alpha} = cos\alpha + jsin\alpha)$ and substitute this expression in the previous equation so that we can transform a polar expression into an exponential expression. 
+
+
+
 
 ### Calculate complex roots
 
@@ -104,21 +138,3 @@ The steps you need to follow in order to do so are:
       
         
 6- $2{\frac{1}{2}}e^{j \frac{11\pi}{6}} = \sqrt{2}(cos\frac{11\pi}{6} + jsin\frac{11\pi}{6}) = \sqrt{2}(\frac{1}{2} - j\frac{\sqrt{3}}{2}) = \frac{\sqrt{2}}{2} - j \frac{\sqrt{6}}{2}$
-
-
-
-
-
-
-
-
-
-
-
-
-
-> Dorothy told me this
-
- 
-
-- line 1
