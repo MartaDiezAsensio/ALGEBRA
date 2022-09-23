@@ -6,8 +6,18 @@ To express a complex number in the binomial form we need to divide the imaginary
 
 **Given the number $j^{255}$**
 
-1. d
+1- we divide $255$ by $2$  $(225/2 = 127 (reminder=1))$.
 
+2- Once we have the result we can rewrite the complex number as $(j^{2})^{127} + j^1$.
+
+3- Finally we continue doing this procedure until we get to the minimum exponent.
+
+ - $(j^{2})^{127} + j^1 = (j^{2})^{63} + j^1 = (j^{2})^{31} + j^1 = (j^{2})^{15} + j^1 = (j^{2})^{7} + j^1 = (j^{2})^{3} + j^1 $
+
+
+
+
+**Given the expression $\frac{e^{-3+5j}}{}$**
 
 
 
@@ -29,33 +39,30 @@ The steps you need to follow in order to do so are:
 
 -  *These are the roots:*
 
-<General expression to be extended>
 
 
-1. $2{\frac{1}{2}}e^{j \frac{\pi}{6}} = \sqrt{2}(cos\frac{\pi}{6} + jsin\frac{\pi}{6}) = \sqrt{2}(\frac{1}{2} + j\frac{\sqrt{3}}{2}) = \frac{\sqrt{2}}{2} + j \frac{\sqrt{6}}{2}$
+1- $2{\frac{1}{2}}e^{j \frac{\pi}{6}} = \sqrt{2}(cos\frac{\pi}{6} + jsin\frac{\pi}{6}) = \sqrt{2}(\frac{1}{2} + j\frac{\sqrt{3}}{2}) = \frac{\sqrt{2}}{2} + j \frac{\sqrt{6}}{2}$
 
-    <Firts root>
+ 
 
-2. $2{\frac{1}{2}}e^{j \frac{3\pi}{6}} = \sqrt{2}_{\frac{\pi}{2}} = \sqrt{2}(cos\frac{\pi}{2} + jsin\frac{\pi}{2}) = \sqrt{2}(0 + j) = j\sqrt{2}$
+2- $2{\frac{1}{2}}e^{j \frac{3\pi}{6}} = \sqrt{2}_{\frac{\pi}{2}} = \sqrt{2}(cos\frac{\pi}{2} + jsin\frac{\pi}{2}) = \sqrt{2}(0 + j) = j\sqrt{2}$
 
-    <Second root>
 
-3. $2{\frac{1}{2}}e^{j \frac{5\pi}{6}} = \sqrt{2}(cos\frac{5\pi}{6} + jsin\frac{5\pi}{6}) = \sqrt{2}(-\frac{1}{2} + j\frac{\sqrt{3}}{2}) = -\frac{\sqrt{2}}{2} + j \frac{\sqrt{6}}{2}$
 
-    <Third root>
+3- $2{\frac{1}{2}}e^{j \frac{5\pi}{6}} = \sqrt{2}(cos\frac{5\pi}{6} + jsin\frac{5\pi}{6}) = \sqrt{2}(-\frac{1}{2} + j\frac{\sqrt{3}}{2}) = -\frac{\sqrt{2}}{2} + j \frac{\sqrt{6}}{2}$
 
-4. $2{\frac{1}{2}}e^{j \frac{7\pi}{6}} = \sqrt{2}(cos\frac{7\pi}{6} + jsin\frac{7\pi}{6}) = \sqrt{2}(-\frac{1}{2} - j\frac{\sqrt{3}}{2}) = -\frac{\sqrt{2}}{2} - j \frac{\sqrt{6}}{2}$
+  
 
-    <Fourth root>  
+4- $2{\frac{1}{2}}e^{j \frac{7\pi}{6}} = \sqrt{2}(cos\frac{7\pi}{6} + jsin\frac{7\pi}{6}) = \sqrt{2}(-\frac{1}{2} - j\frac{\sqrt{3}}{2}) = -\frac{\sqrt{2}}{2} - j \frac{\sqrt{6}}{2}$
+
      
       
-5. $2{\frac{1}{2}}e^{j \frac{9\pi}{6}} = \sqrt{2}_{\frac{3\pi}{2}} = \sqrt{2}(cos\frac{3\pi}{2} + jsin\frac{3\pi}{2}) = \sqrt{2}(0 + j(-1)) = -j\sqrt{2}$
+5- $2{\frac{1}{2}}e^{j \frac{9\pi}{6}} = \sqrt{2}_{\frac{3\pi}{2}} = \sqrt{2}(cos\frac{3\pi}{2} + jsin\frac{3\pi}{2}) = \sqrt{2}(0 + j(-1)) = -j\sqrt{2}$
       
-      <fifth root>
+        
+6- $2{\frac{1}{2}}e^{j \frac{11\pi}{6}} = \sqrt{2}(cos\frac{11\pi}{6} + jsin\frac{11\pi}{6}) = \sqrt{2}(\frac{1}{2} - j\frac{\sqrt{3}}{2}) = \frac{\sqrt{2}}{2} - j \frac{\sqrt{6}}{2}$
 
-6. $2{\frac{1}{2}}e^{j \frac{11\pi}{6}} = \sqrt{2}(cos\frac{11\pi}{6} + jsin\frac{11\pi}{6}) = \sqrt{2}(\frac{1}{2} - j\frac{\sqrt{3}}{2}) = \frac{\sqrt{2}}{2} - j \frac{\sqrt{6}}{2}$
 
-    <Sixth root>
 
 
 
