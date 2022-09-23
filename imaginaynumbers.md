@@ -1,5 +1,20 @@
 # Imaginary numbers
 
+
+### Basic Complex operations
+
+When operating with complex numbers we will proceed as we do with regular polynomials with the only peculiarity that when we encounter a $j^2$ we will substitude this expression by the number $-1$. 
+
+1- Sum / Substraction 
+
+
+  - $(a + jb) + (c + jd) = a+c + j(b + d)$
+
+
+2- Multiplication / Divisioin
+
+  - $(a+jb)*(c+jd) = ac + jad + jbc + j^2bd = ac + jad + jbc -bd = ac - bd + j(ad + bc)$
+
 ### Binomial form of complex numbers
 
 To express a complex number in the binomial form we need to divide the imaginary exponent by two and do the following: 
@@ -45,7 +60,7 @@ A proof of this formula is:
 
 2- Now we use Euler's formula to solve:
 
-   - $\frac{e^{-3+5j}-e^{-3-5j}}{e^{-3-5j}+e^{-3+5j}} = \frac{e^{-3}(cos-e^{-3-5j}}{e^{-3-5j}+e^{-3+5j}}$
+   - $\frac{e^{-3+5j}-e^{-3-5j}}{e^{-3-5j}+e^{-3+5j}} = \frac{e^{-3}(2jsin5)}{e^3(2cos5)} = e^{-6}jtg5$
 
 
 
