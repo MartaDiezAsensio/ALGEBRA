@@ -17,7 +17,35 @@ To express a complex number in the binomial form we need to divide the imaginary
 
 
 
-**Given the expression $\frac{e^{-3+5j}}{}$**
+**Given the expression $\frac{e^{-3+5j}-e^{-3-5j}}{e^{-3-5j}+e^{-3+5j}}$**
+
+1- we must know Euler's formula:
+
+> $e^{jx}=cos x + j sin x$
+
+A proof of this formula is:
+
+>> We can rearrange the formula as $1 = \frac{e^{i\theta}}{\cos{(\theta)} + i \sin{(\theta)}}$
+
+
+>> Then $0 = \frac{d}{d\theta}\left(\frac{e^{i\theta}}{\cos{(\theta)} + i\sin{(\theta)}}\right).....\text{[Taking der. of both sides]}$
+
+
+>> $0 = \frac{ie^{i\theta}\cos{(\theta)} - e^{i\theta}\sin{(\theta)} + e^{i\theta}\sin{(\theta)} - ie^{i\theta}\cos{(\theta)}}{\cos^{2}{(\theta)} + 2 i \cos{(\theta)}\sin{(\theta)} - \sin^{2}{(\theta)}}$
+
+
+>> $0 = \frac{0}{\cos^{2}{(\theta)} + 2 i \cos{(\theta)}\sin{(\theta)} - \sin^{2}{(\theta)}}$
+
+
+>> $0 = 0$
+
+
+> $L.H.S = R.H.S $
+
+
+2- Now we use Euler's formula to solve:
+
+   - $\frac{e^{-3+5j}-e^{-3-5j}}{e^{-3-5j}+e^{-3+5j}} = \frac{e^{-3}(cos-e^{-3-5j}}{e^{-3-5j}+e^{-3+5j}}$
 
 
 
