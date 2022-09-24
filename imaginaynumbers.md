@@ -91,9 +91,25 @@ To calculate the argument we work out the tangent of the division of the imagina
 
 The exponential form of a complex number has the form of $(z = re^{j\alpha})$. 
 
-To get to this expression we may go back to the polar form. Hence we have said that we can express a complex number like $z = r(cos\alpha + jsin\alpha)$. 
+To get to this expression we may go back to the polar form. Hence we have said that we can express a complex number like 
+- $z = r(cos\alpha + jsin\alpha)$. 
 
 We then need to recall Euler's formula $(e^{j\alpha} = cos\alpha + jsin\alpha)$ and substitute this expression in the previous equation so that we can transform a polar expression into an exponential expression. 
+
+
+
+
+### Newton's Binomial
+
+
+Newton's Binomial is widely used in real number algebra and it is as used when working with complex numbers.  This theorem expands the sum $(a + b)^n$ as a infinate series when $n$ is not an integrer or negative number. 
+
+- $(x+y)^n = \sum{_{k=0}^{n}} {n \choose k} x^{n - k} y^k$
+
+    - Example: $(x+y)^5 =x^5 + 5x^4y + 10x^3y^2 +10x^2y^3 +5xy^4 +y^5$
+
+
+
 
 
 
